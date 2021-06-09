@@ -1,5 +1,5 @@
 # YouTube Downloader for Termux
-[![ytdl-background.jpg](https://i.postimg.cc/mrv2PLZb/ytdl-background.jpg)](https://postimg.cc/gwKP5P65)<br>
+[![UVk-Plc7-ZTl-AAAAABJRU5-Erk-Jggg-picsay.jpg](https://i.postimg.cc/yxBRSX6Y/UVk-Plc7-ZTl-AAAAABJRU5-Erk-Jggg-picsay.jpg)](https://postimg.cc/TL71zbWZ)<br>
 Script ini berfungsi untuk mendownload video/playlist/channel YouTube melalui Termux.
 Script ini berdasar dari package python [**youtube-dl**](https://github.com/ytdl-org/youtube-dl)<br>
 <p align=center>
