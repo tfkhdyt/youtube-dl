@@ -7,43 +7,43 @@ elif [[ $# -eq 2 ]]; then
 		'144p')
 			quality=160
 			;;  
-		'144p60 HDR')
+		'144p60HDR')
 			quality=694
 			;;
-		'144p HDR')
+		'144pHDR')
 			quality=394
 			;;
 		'240p')
 			quality=133
 			;;
-		'240p60 HDR')
+		'240p60HDR')
 			quality=695
 			;;
-		'240p HDR')
+		'240pHDR')
 			quality=395
 			;;
 		'360p')
 			quality=134
 			;;
-		'360p60 HDR')
+		'360p60HDR')
 			quality=696
 			;;
-		'360p HDR')
+		'360pHDR')
 			quality=396
 			;;
 		'480p')
 			quality=135
 			;;
-		'480p60 HDR')
+		'480p60HDR')
 			quality=697
 			;;
-		'480p HDR')
+		'480pHDR')
 			quality=397
 			;;
 		'720p')
 			quality=136 
 			;;
-		'720p60 HDR')
+		'720p60HDR')
 			quality=698
 			;;
 		'720p60')
@@ -55,7 +55,7 @@ elif [[ $# -eq 2 ]]; then
 		'1080p60')
 			quality=299
 			;;
-		'1080p60 HDR')
+		'1080p60HDR')
 			quality=699
 			;;
 		'1440p')
@@ -64,7 +64,7 @@ elif [[ $# -eq 2 ]]; then
 		'1440p60')
 			quality=304
 			;;
-		'1440p60 HDR')
+		'1440p60HDR')
 			quality=700
 			;;
 		'4K')
@@ -73,7 +73,7 @@ elif [[ $# -eq 2 ]]; then
 		'4K60')
 			quality=305
 			;;
-		'4K60 HDR')
+		'4K60HDR')
 			quality=701
 			;;
 	esac
@@ -89,43 +89,43 @@ elif [[ $# -eq 3 ]]; then
 			'144p')
 				quality=160
 				;;  
-			'144p60 HDR')
+			'144p60HDR')
 				quality=694
 				;;
-			'144p HDR')
+			'144pHDR')
 				quality=394
 				;;
 			'240p')
 				quality=133
 				;;
-			'240p60 HDR')
+			'240p60HDR')
 				quality=695
 				;;
-			'240p HDR')
+			'240pHDR')
 				quality=395
 				;;
 			'360p')
 				quality=134
 				;;
-			'360p60 HDR')
+			'360p60HDR')
 				quality=696
 				;;
-			'360p HDR')
+			'360pHDR')
 				quality=396
 				;;
 			'480p')
 				quality=135
 				;;
-			'480p60 HDR')
+			'480p60HDR')
 				quality=697
 				;;
-			'480p HDR')
+			'480pHDR')
 				quality=397
 				;;
 			'720p')
 				quality=136 
 				;;
-			'720p60 HDR')
+			'720p60HDR')
 				quality=698
 				;;
 			'720p60')
@@ -137,7 +137,7 @@ elif [[ $# -eq 3 ]]; then
 			'1080p60')
 				quality=299
 				;;
-			'1080p60 HDR')
+			'1080p60HDR')
 				quality=699
 				;;
 			'1440p')
@@ -146,7 +146,7 @@ elif [[ $# -eq 3 ]]; then
 			'1440p60')
 				quality=304
 				;;
-			'1440p60 HDR')
+			'1440p60HDR')
 				quality=700
 				;;
 			'4K')
@@ -155,7 +155,7 @@ elif [[ $# -eq 3 ]]; then
 			'4K60')
 				quality=305
 				;;
-			'4K60 HDR')
+			'4K60HDR')
 				quality=701
 				;;
 		esac
@@ -170,43 +170,43 @@ elif [[ $# -eq 3 ]]; then
 			'144p')
 				quality=278
 				;;  
-			'144p60 HDR')
+			'144p60HDR')
 				quality=694
 				;;
-			'144p HDR')
+			'144pHDR')
 				quality=394
 				;;
 			'240p')
 				quality=242
 				;;
-			'240p60 HDR')
+			'240p60HDR')
 				quality=695
 				;;
-			'240p HDR')
+			'240pHDR')
 				quality=395
 				;;
 			'360p')
 				quality=243
 				;;
-			'360p60 HDR')
+			'360p60HDR')
 				quality=696
 				;;
-			'360p HDR')
+			'360pHDR')
 				quality=396
 				;;
 			'480p')
 				quality=244
 				;;
-			'480p60 HDR')
+			'480p60HDR')
 				quality=697
 				;;
-			'480p HDR')
+			'480pHDR')
 				quality=397
 				;;
 			'720p')
 				quality=247 
 				;;
-			'720p60 HDR')
+			'720p60HDR')
 				quality=698
 				;;
 			'720p60')
@@ -218,7 +218,7 @@ elif [[ $# -eq 3 ]]; then
 			'1080p60')
 				quality=303
 				;;
-			'1080p60 HDR')
+			'1080p60HDR')
 				quality=699
 				;;
 			'1440p')
@@ -227,7 +227,7 @@ elif [[ $# -eq 3 ]]; then
 			'1440p60')
 				quality=308
 				;;
-			'1440p60 HDR')
+			'1440p60HDR')
 				quality=700
 				;;
 			'4K')
@@ -236,7 +236,7 @@ elif [[ $# -eq 3 ]]; then
 			'4K60')
 				quality=315
 				;;
-			'4K60 HDR')
+			'4K60HDR')
 				quality=701
 				;;
 		esac
