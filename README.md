@@ -1,6 +1,6 @@
 # YouTube Downloader for Termux
 
-Script ini berfungsi untuk mendownload video/playlist/channel YouTube melalui Termux
+Script ini berfungsi untuk mendownload video/playlist/channel YouTube melalui Termux.
 Script ini berdasar dari package python [**youtube-dl**](https://github.com/ytdl-org/youtube-dl)<br>
 <p align=center>
   <a href="Https://facebook.com/tfkhdyt142"><img height="30" src="https://www.pinclipart.com/picdir/big/2-21918_download-transparent-background-facebook-logo-clipart-facebook-logo.png"></a>&nbsp;
