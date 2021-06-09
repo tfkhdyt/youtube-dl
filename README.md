@@ -1,7 +1,7 @@
 # YouTube Downloader for Termux
-<l
+
 Script ini berfungsi untuk mendownload video/playlist/channel YouTube melalui Termux
-Script ini berdasar dari package python [youtube-dl](https://github.com/ytdl-org/youtube-dl)<br>
+Script ini berdasar dari package python [**youtube-dl**](https://github.com/ytdl-org/youtube-dl)<br>
 <p align=center>
   <a href="Https://facebook.com/tfkhdyt142"><img height="30" src="https://www.pinclipart.com/picdir/big/2-21918_download-transparent-background-facebook-logo-clipart-facebook-logo.png"></a>&nbsp;
   <a href="https://twitter.com/tfkhdyt"><img height="30" src="https://www.pinclipart.com/picdir/big/64-649167_the-pairings-twitter-icon-rounded-square-clipart.png"></a>&nbsp;
@@ -17,14 +17,12 @@ Script ini berdasar dari package python [youtube-dl](https://github.com/ytdl-org
 - <a href="https://play.google.com/store/apps/details?id=com.termux">Termux</a>
 - `git (pkg install git)`
 
-## Instalasi
+## Installation
 ```Bash
 git clone https://github.com/tfkhdyt/youtube-dl.git && cd youtube-dl && ./install
 ```
-## Cara penggunaan
+## Usage
 ```Bash
-# Cara penggunaan:
-
 # ydl <link video youtube> = Untuk melihat daftar kualitas
 #  Contoh:
 	ydl https://youtu.be/dmSmSuqb9RI
