@@ -1,7 +1,37 @@
 #!/usr/bin/bash
 choice=$1
 if [[ $# -eq 1 ]]; then
-	youtube-dl -F $1
+	if [ $1 == "-h" ]; then
+		echo "Cara penggunaan:
+
+• ydl <link video youtube> = Untuk melihat daftar kualitas
+  Contoh:
+	ydl https://youtu.be/dmSmSuqb9RI
+
+• ydl <kode kualitas> <link video youtube> = Untuk mendownload video dalam kualitas tertentu
+  Contoh:
+	ydl 720p https://youtu.be/dmSmSuqb9RI 
+
+  Daftar kualitas yang didukung:
+	- 144p, 144p60HDR, 144pHDR
+	- 240p, 240p60HDR, 240pHDR
+	- 360p, 360p60HDR, 360pHDR
+	- 480p, 480p60HDR, 480pHDR
+	- 720p, 720p60, 720p60HDR
+	- 1080p, 1080p60, 1080p60HDR
+	- 1440p, 1440p60, 1440p60HDR
+	- 4K, 4K60, 4K60HDR
+
+• ydl <kode kualitas> <format video> <link video youtube> - Untuk mendownload video dalam format tertentu
+  Contoh:
+	ydl 1080p60 mkv https://youtu.be/dmSmSuqb9RI 
+
+  Format video yang didukung:
+	- mp4
+	- mkv"		
+	else
+		youtube-dl -F $1
+	fi
 elif [[ $# -eq 2 ]]; then
 	case $choice in
 		'144p')
