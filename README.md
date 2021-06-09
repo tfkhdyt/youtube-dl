@@ -49,6 +49,14 @@ git clone https://github.com/tfkhdyt/youtube-dl.git && cd youtube-dl && ./instal
 #	- mp4
 #	- mkv
 ```
+## Support
+Klik tombol di bawah untuk mendukung saya lewat donasi
+
+<p align="center">
+  <a href="https://tfkhdyt.web.app/donate">
+    <img src="https://i.postimg.cc/jjRDbZQx/1621036430601.png" width="40%">
+  </a>
+</p>
 
 ## Informasi lebih lanjut
 Apabila ada yang mau ditanyakan soal skrip ini, bisa langsung pm saya:
