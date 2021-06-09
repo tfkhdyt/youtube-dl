@@ -47,7 +47,7 @@ git clone https://github.com/tfkhdyt/youtube-dl.git && cd youtube-dl && ./instal
 
 #  Format video yang didukung:
 #	- mp4
-#	- mkv"	
+#	- mkv
 ```
 
 ## Informasi lebih lanjut
