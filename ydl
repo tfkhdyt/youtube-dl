@@ -1,0 +1,252 @@
+#!/usr/bin/bash
+choice=$1
+if [[ $# -eq 1 ]]; then
+	youtube-dl -F $1
+elif [[ $# -eq 2 ]]; then
+	case $choice in
+		'144p')
+			quality=160
+			;;  
+		'144p60 HDR')
+			quality=694
+			;;
+		'144p HDR')
+			quality=394
+			;;
+		'240p')
+			quality=133
+			;;
+		'240p60 HDR')
+			quality=695
+			;;
+		'240p HDR')
+			quality=395
+			;;
+		'360p')
+			quality=134
+			;;
+		'360p60 HDR')
+			quality=696
+			;;
+		'360p HDR')
+			quality=396
+			;;
+		'480p')
+			quality=135
+			;;
+		'480p60 HDR')
+			quality=697
+			;;
+		'480p HDR')
+			quality=397
+			;;
+		'720p')
+			quality=136 
+			;;
+		'720p60 HDR')
+			quality=698
+			;;
+		'720p60')
+			quality=298
+			;;
+		'1080p')
+			quality=137
+			;;
+		'1080p60')
+			quality=299
+			;;
+		'1080p60 HDR')
+			quality=699
+			;;
+		'1440p')
+			quality=264
+			;;
+		'1440p60')
+			quality=304
+			;;
+		'1440p60 HDR')
+			quality=700
+			;;
+		'4K')
+			quality=266
+			;;
+		'4K60')
+			quality=305
+			;;
+		'4K60 HDR')
+			quality=701
+			;;
+	esac
+	if youtube-dl -f ${quality}+140 $2 -c -o '%(title)s'; then
+		echo "Download Success!"
+		youtube-dl --rm-cache-dir
+	else
+		echo "Download Failed!"
+	fi
+elif [[ $# -eq 3 ]]; then
+	if [[ $2 == "mp4" ]]; then
+		case $choice in
+			'144p')
+				quality=160
+				;;  
+			'144p60 HDR')
+				quality=694
+				;;
+			'144p HDR')
+				quality=394
+				;;
+			'240p')
+				quality=133
+				;;
+			'240p60 HDR')
+				quality=695
+				;;
+			'240p HDR')
+				quality=395
+				;;
+			'360p')
+				quality=134
+				;;
+			'360p60 HDR')
+				quality=696
+				;;
+			'360p HDR')
+				quality=396
+				;;
+			'480p')
+				quality=135
+				;;
+			'480p60 HDR')
+				quality=697
+				;;
+			'480p HDR')
+				quality=397
+				;;
+			'720p')
+				quality=136 
+				;;
+			'720p60 HDR')
+				quality=698
+				;;
+			'720p60')
+				quality=298
+				;;
+			'1080p')
+				quality=137
+				;;
+			'1080p60')
+				quality=299
+				;;
+			'1080p60 HDR')
+				quality=699
+				;;
+			'1440p')
+				quality=264
+				;;
+			'1440p60')
+				quality=304
+				;;
+			'1440p60 HDR')
+				quality=700
+				;;
+			'4K')
+				quality=266
+				;;
+			'4K60')
+				quality=305
+				;;
+			'4K60 HDR')
+				quality=701
+				;;
+		esac
+		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s'; then
+			echo "Download Success!"
+			youtube-dl --rm-cache-dir
+		else
+			echo "Download Failed!"
+		fi
+	elif [[ $2 == "mkv" ]]; then
+		case $choice in
+			'144p')
+				quality=278
+				;;  
+			'144p60 HDR')
+				quality=694
+				;;
+			'144p HDR')
+				quality=394
+				;;
+			'240p')
+				quality=242
+				;;
+			'240p60 HDR')
+				quality=695
+				;;
+			'240p HDR')
+				quality=395
+				;;
+			'360p')
+				quality=243
+				;;
+			'360p60 HDR')
+				quality=696
+				;;
+			'360p HDR')
+				quality=396
+				;;
+			'480p')
+				quality=244
+				;;
+			'480p60 HDR')
+				quality=697
+				;;
+			'480p HDR')
+				quality=397
+				;;
+			'720p')
+				quality=247 
+				;;
+			'720p60 HDR')
+				quality=698
+				;;
+			'720p60')
+				quality=302
+				;;
+			'1080p')
+				quality=248
+				;;
+			'1080p60')
+				quality=303
+				;;
+			'1080p60 HDR')
+				quality=699
+				;;
+			'1440p')
+				quality=271
+				;;
+			'1440p60')
+				quality=308
+				;;
+			'1440p60 HDR')
+				quality=700
+				;;
+			'4K')
+				quality=313
+				;;
+			'4K60')
+				quality=315
+				;;
+			'4K60 HDR')
+				quality=701
+				;;
+		esac
+		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s'; then
+			echo "Download Success!"
+			youtube-dl --rm-cache-dir
+		else
+			echo "Download Failed!"
+		fi
+	fi
+else
+	echo "Command tidak valid!"
+fi
