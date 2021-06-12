@@ -107,8 +107,6 @@ elif [[ $# -eq 2 ]]; then
 			quality=701
 			;;
 	esac
-	title=$(youtube-dl $2 -se)
-	echo "Title: $title"
 	if youtube-dl -f ${quality}+140 $2 -c -o '%(title)s'; then
 		echo "Download Success!"
 		youtube-dl --rm-cache-dir
