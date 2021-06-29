@@ -107,7 +107,7 @@ elif [[ $# -eq 2 ]]; then
 			quality=701
 			;;
 	esac
-	if youtube-dl -f ${quality}+140 $2 -c -o '%(title)s' --external-downloader aria2c --external-downloader-args '-c -j 3 -x 3 -s 3 -k 1M'; then
+	if youtube-dl -f ${quality}+140 $2 -c -o '%(title)s' --external-downloader aria2c --external-downloader-args '-c -j 16 -x 16 -s 16 -k 1M'; then
 		echo "Download Success!"
 		youtube-dl --rm-cache-dir
 	else
@@ -189,7 +189,7 @@ elif [[ $# -eq 3 ]]; then
 				quality=701
 				;;
 		esac
-		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s' --external-downloader aria2c --external-downloader-args '-c -j 3 -x 3 -s 3 -k 1M'; then
+		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s' --external-downloader aria2c --external-downloader-args '-c -j 16 -x 16 -s 16 -k 1M'; then
 			echo "Download Success!"
 			youtube-dl --rm-cache-dir
 		else
@@ -270,7 +270,7 @@ elif [[ $# -eq 3 ]]; then
 				quality=701
 				;;
 		esac
-		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s' --external-downloader aria2c --external-downloader-args '-c -j 3 -x 3 -s 3 -k 1M'; then
+		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s' --external-downloader aria2c --external-downloader-args '-c -j 16 -x 16 -s 16 -k 1M'; then
 			echo "Download Success!"
 			youtube-dl --rm-cache-dir
 		else
