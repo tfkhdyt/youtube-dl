@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 pkg install python ffmpeg
-pip install youtube_dl
+pip install --upgrade yt-dlp
 cp ydl $PREFIX/bin/
 echo "Installation Success!"

@@ -1,7 +1,7 @@
 # YouTube Downloader for Termux
 [![UVk-Plc7-ZTl-AAAAABJRU5-Erk-Jggg-picsay.jpg](https://i.postimg.cc/yxBRSX6Y/UVk-Plc7-ZTl-AAAAABJRU5-Erk-Jggg-picsay.jpg)](https://postimg.cc/TL71zbWZ)<br>
 Script ini berfungsi untuk mendownload video/playlist/channel YouTube melalui Termux.
-Script ini berdasar dari package python [**youtube-dl**](https://github.com/ytdl-org/youtube-dl)<br>
+Script ini berdasar dari package python [**yt-dlp**](https://github.com/yt-dlp/yt-dlp)<br>
 <p align=center>
   <a href="Https://facebook.com/tfkhdyt142"><img height="30" src="https://www.pinclipart.com/picdir/big/2-21918_download-transparent-background-facebook-logo-clipart-facebook-logo.png"></a>&nbsp;
   <a href="https://twitter.com/tfkhdyt"><img height="30" src="https://www.pinclipart.com/picdir/big/64-649167_the-pairings-twitter-icon-rounded-square-clipart.png"></a>&nbsp;

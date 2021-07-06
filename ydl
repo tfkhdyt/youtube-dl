@@ -30,7 +30,7 @@ if [[ $# -eq 1 ]]; then
 	- mp4
 	- mkv"		
 	else
-		youtube-dl -F $1
+		yt-dlp -F $1
 	fi
 elif [[ $# -eq 2 ]]; then
 	case $choice in
@@ -107,9 +107,9 @@ elif [[ $# -eq 2 ]]; then
 			quality=701
 			;;
 	esac
-	if youtube-dl -f ${quality}+140 $2 -c -o '%(title)s' --external-downloader aria2c --external-downloader-args '-c -j 16 -x 16 -s 16 -k 1M'; then
+	if yt-dlp -f ${quality}+140 $2 -c -o '%(title)s' --throttled-rate 100K; then
 		echo "Download Success!"
-		youtube-dl --rm-cache-dir
+		yt-dlp --rm-cache-dir
 	else
 		echo "Download Failed!"
 	fi
@@ -189,9 +189,9 @@ elif [[ $# -eq 3 ]]; then
 				quality=701
 				;;
 		esac
-		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s'; then
+		if yt-dlp -f ${quality}+140 $3 -c -o '%(title)s' --throttled-rate 100K; then
 			echo "Download Success!"
-			youtube-dl --rm-cache-dir
+			yt-dlp --rm-cache-dir
 		else
 			echo "Download Failed!"
 		fi
@@ -270,9 +270,9 @@ elif [[ $# -eq 3 ]]; then
 				quality=701
 				;;
 		esac
-		if youtube-dl -f ${quality}+140 $3 -c -o '%(title)s'; then
+		if yt-dlp -f ${quality}+140 $3 -c -o '%(title)s' --throttled-rate 100K; then
 			echo "Download Success!"
-			youtube-dl --rm-cache-dir
+			yt-dlp --rm-cache-dir
 		else
 			echo "Download Failed!"
 		fi
