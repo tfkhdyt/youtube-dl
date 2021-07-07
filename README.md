@@ -21,6 +21,14 @@ Script ini berdasar dari package python [**yt-dlp**](https://github.com/yt-dlp/y
 ```Bash
 git clone https://github.com/tfkhdyt/youtube-dl.git && cd youtube-dl && ./install
 ```
+## Features
+- Support Playlist & Channel Download (For Real)
+- High Download Speed (No Throttle)
+- Auto Embed Thumbnail
+- Auto Embed Subtitle (All Available Languages)
+- Up to 4K60 HDR
+- Easy to Use (One Command Only to Download Anything From YouTube)
+
 ## Usage
 ```Bash
 # ydl <link video youtube> = Untuk melihat daftar kualitas
