@@ -107,7 +107,7 @@ elif [[ $# -eq 2 ]]; then
 			quality=701
 			;;
 	esac
-	if yt-dlp -f ${quality}+140 $2 -c -o '%(title)s' --throttled-rate 100K --embed-thumbnail --all-subs --embed-subs; then
+	if yt-dlp -f ${quality}+140 $2 -c -o '%(title)s' --throttled-rate 100K --embed-thumbnail --all-subs --compat-options no-live-chat --embed-subs; then
 		echo "Download Success!"
 		yt-dlp --rm-cache-dir
 	else
@@ -189,7 +189,7 @@ elif [[ $# -eq 3 ]]; then
 				quality=701
 				;;
 		esac
-		if yt-dlp -f ${quality}+140 $3 -c -o '%(title)s' --throttled-rate 100K --embed-thumbnail --all-subs --embed-subs; then
+		if yt-dlp -f ${quality}+140 $3 -c -o '%(title)s' --throttled-rate 100K --embed-thumbnail --all-subs --compat-options no-live-chat --embed-subs; then
 			echo "Download Success!"
 			yt-dlp --rm-cache-dir
 		else
@@ -270,7 +270,7 @@ elif [[ $# -eq 3 ]]; then
 				quality=701
 				;;
 		esac
-		if yt-dlp -f ${quality}+140 $3 -c -o '%(title)s' --throttled-rate 100K --embed-thumbnail --all-subs --embed-subs; then
+		if yt-dlp -f ${quality}+140 $3 -c -o '%(title)s' --throttled-rate 100K --embed-thumbnail --all-subs --compat-options no-live-chat --embed-subs; then
 			echo "Download Success!"
 			yt-dlp --rm-cache-dir
 		else
