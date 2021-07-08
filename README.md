@@ -14,7 +14,7 @@ Script ini berdasar dari package python [**yt-dlp**](https://github.com/yt-dlp/y
 </p>
 
 ## Requirements
-- <a href="https://play.google.com/store/apps/details?id=com.termux">Termux</a>
+- <a href="https://f-droid.org/packages/com.termux">Termux</a>
 - `git (pkg install git)`
 
 ## Installation
